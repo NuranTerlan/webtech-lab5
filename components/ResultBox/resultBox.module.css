@@ -1,0 +1,21 @@
+.box {
+	padding: 1rem 1.875rem;
+	border-radius: 0.625rem;
+	border: 0.125rem solid var(--color-black);
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--color-black);
+	text-align: center;
+}
+
+.correct {
+	background-color: var(--color-success-light);
+	border-color: var(--color-success);
+	color: var(--color-success);
+}
+
+.wrong {
+	background-color: var(--color-fail-light);
+	border-color: var(--color-fail);
+	color: var(--color-fail);
+}

@@ -1,0 +1,43 @@
+.question {
+	font-weight: 700;
+	font-size: 1.875rem;
+	width: 90%;
+	text-align: center;
+}
+
+.answer {
+	margin-top: 3.125rem;
+	width: min(45rem, 100%);
+}
+
+.optionsContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.25rem;
+}
+
+.bottomSection {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 6.25rem;
+}
+
+.info {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--color-black);
+}
+
+.info span {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: var(--color-quiz-light);
+}
+
+@media screen and (max-width: 790px) {
+	.bottomSection {
+		padding: 0 2rem 1rem;
+	}
+}

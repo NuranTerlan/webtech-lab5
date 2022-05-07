@@ -1,0 +1,41 @@
+.option {
+	width: min(21.875rem, 100%);
+	display: flex;
+	align-items: center;
+	padding: 2.25rem 2.5rem;
+	border-radius: 0.9375rem;
+	border: 0.125rem solid var(--color-quiz-normal);
+	background-color: var(--color-quiz-extra-light);
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: var(--color-black);
+	cursor: pointer;
+	transition: all 150ms;
+}
+
+.option:hover {
+	background-color: var(--color-quiz-normal);
+}
+
+.correct {
+	background-color: var(--color-success);
+	border-color: var(--color-success);
+}
+.correct:hover {
+	background-color: var(--color-success);
+}
+
+.wrong {
+	background-color: var(--color-fail);
+	border-color: var(--color-fail);
+	text-decoration: line-through;
+}
+.wrong:hover {
+	background-color: var(--color-fail);
+}
+
+.correct,
+.wrong {
+	font-weight: 700;
+	color: var(--color-white);
+}

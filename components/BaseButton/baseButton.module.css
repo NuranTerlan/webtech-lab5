@@ -1,0 +1,17 @@
+.button {
+	padding: 0.938rem 2.5rem;
+	background-color: var(--color-white);
+	border-radius: 0.5rem;
+	border: none;
+	outline-color: var(--color-black);
+	cursor: pointer;
+	transition: all 200ms;
+	display: flex;
+	align-items: center;
+	gap: 0.938rem;
+}
+
+.button:hover {
+	transform: translateY(-0.3rem);
+	background-color: var(--color-gray-light);
+}

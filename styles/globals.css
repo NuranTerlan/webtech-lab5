@@ -1,0 +1,38 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--color-black: #000;
+	--color-white: #fff;
+	--color-gray: #ccc;
+	--color-gray-light: #e1e8ed;
+	--color-quiz-dark: #424874;
+	--color-quiz-normal: #a6b1e1;
+	--color-quiz-light: #dcd6f7;
+	--color-quiz-extra-light: #f4eeff;
+	--color-success: #52c41a;
+	--color-success-light: #d9f7be;
+	--color-fail: #ff4d4f;
+	--color-fail-light: #ffccc7;
+}
+
+@media screen and (max-width: 360px) {
+	html,
+	body {
+		font-size: 14px;
+	}
+}

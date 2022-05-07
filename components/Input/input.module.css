@@ -1,0 +1,35 @@
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+	width: 21.875rem;
+}
+
+.inputContainer label {
+	font-size: 1.125rem;
+	font-weight: 600;
+	color: var(--color-quiz-dark);
+	padding-bottom: 0.313rem;
+	padding-left: 1.875rem;
+	cursor: pointer;
+}
+
+.inputContainer input {
+	border: none;
+	outline: none;
+	border-radius: 0.625rem;
+	background-color: var(--color-quiz-extra-light);
+	padding: 1.25rem 1.875rem;
+	color: var(--color-quiz-dark);
+	font-size: 1.5rem;
+	font-weight: 600;
+	transition: border-left 100ms linear;
+}
+
+.inputContainer input::placeholder {
+	color: var(--color-quiz-light);
+	font-weight: 400;
+}
+
+.inputContainer input:focus {
+	border-left: 0.4rem solid var(--color-quiz-normal);
+}
