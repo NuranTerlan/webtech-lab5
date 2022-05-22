@@ -114,7 +114,7 @@ const Quiz: NextPage = () => {
 
 	return (
 		<Layout excludeFooter>
-			{currentStep && (
+			{currentStep ? (
 				<>
 					<h1 className={styles.question}>{currentStep.question}</h1>
 					<div className={styles.answer}>
@@ -145,6 +145,8 @@ const Quiz: NextPage = () => {
 						</div>
 					</div>
 				</>
+			) : (
+				<h1 className={styles.question}>Loading question..</h1>
 			)}
 		</Layout>
 	);
